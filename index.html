@@ -272,6 +272,11 @@ dialog#resumeView::backdrop{background:rgba(3,8,18,.75);backdrop-filter:blur(4px
   .contact{padding:28px 22px;border-radius:18px}
   .contact .list a,.contact .list div{font-size:.88rem}
 }
+
+.hero h1{font-size:clamp(3rem,7.4vw,5.6rem);margin-bottom:10px}
+.hero .tag{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:700;letter-spacing:-.03em;line-height:1.15;color:#fff;margin:0 0 18px;max-width:none}
+.hero .tag em{font-style:normal;color:var(--sky)}
+@media (max-width:640px){.hero h1{font-size:3.1rem;margin-bottom:8px}.hero .tag{font-size:1.45rem;margin-bottom:14px}}
 footer{padding:32px 0 48px;color:var(--muted);font-size:.85rem}
 </style>
 </head>
@@ -283,8 +288,9 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:.85rem}
 <section class="hero"><div class="wrap">
   <div>
     <span class="status"><i aria-hidden="true"></i>Open to full-time roles, January 2027</span>
-    <h1>I turn busywork into <em>software.</em></h1>
-    <p>I’m Daron, an Information Sciences &amp; Technology senior at Penn State Harrisburg. I build data, AI, and automation tools for teams that are stuck doing things by hand.</p>
+    <h1>Daron Nyarko</h1>
+    <p class="tag">I turn busywork into <em>software.</em></p>
+    <p>Information Sciences &amp; Technology senior at Penn State Harrisburg. I build data, AI, and automation tools for teams that are stuck doing things by hand.</p>
     <div class="actions">
       <a class="btn primary" href="#experience">See my work</a>
       <a class="btn" href="https://www.linkedin.com/in/daron-nyarko" target="_blank" rel="noopener">LinkedIn</a>
